@@ -5,12 +5,7 @@ export default function Home() {
     <>
       <main className="flex-center min-h-screen">
         <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <Link
-            className="btn-primary"
-            href="/login"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link className="btn-primary" href="/login" rel="noopener noreferrer">
             Login →
           </Link>
           <Link
